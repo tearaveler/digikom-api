@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "streifens",
+  "info": {
+    "name": "Streifen",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Titel": {
+      "type": "string"
+    },
+    "Beschreibung": {
+      "type": "richtext"
+    },
+    "Acordeon": {
+      "type": "component",
+      "repeatable": true,
+      "component": "acordeon.acordeon"
+    },
+    "Refs": {
+      "type": "richtext"
+    }
+  }
+}

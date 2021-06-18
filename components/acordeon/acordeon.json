@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_acordeon_acordeons",
+  "info": {
+    "name": "Acordeon",
+    "icon": "angle-down"
+  },
+  "options": {},
+  "attributes": {
+    "Titel": {
+      "type": "string"
+    },
+    "Inhalt": {
+      "type": "richtext"
+    }
+  }
+}
